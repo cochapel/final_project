@@ -1,0 +1,203 @@
+/* Fonts */
+@font-face {
+  font-family: infiniteBold;
+  src: url(../fonts/Infinite_Stroke_Bolder.otf);
+}
+
+@font-face {
+  font-family: dream;
+  src: url(../fonts/dream_orphans.ttf);
+}
+
+@font-face {
+  font-family: dreamBdIt;
+  src: url(../fonts/dream_orphans_bd_it.ttf);
+}
+
+body {
+  background: #F0D14D;
+}
+
+h1 {
+  font-family: infiniteBold;
+  color: #EFEAD5;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+h2 {
+  font-family: dreamBdIt;
+  color: #B66228;
+}
+
+h3 {
+  font-family: dream;
+  color: #28592C;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+
+/* First Row */
+
+/* Second Row */
+.row2 {
+  position: relative;
+  text-align: right;
+  max-width: 1360px;
+  margin: 25px auto;
+}
+
+.slide {
+  width: 100%;
+  max-height: 500px;
+}
+
+.row2b {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 40%;
+  height: 40%;
+  background: rgba(240,209,77, 0.7);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+img {
+  width: 100%;
+}
+
+
+/* Third Row */
+.row3 {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 50px 0px 0px 0px;
+}
+
+
+/* Fourth Row */
+.row4 {
+  height: 300px;
+  max-width: 1330px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px 15px 15px;
+}
+
+.three.columns.story {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  background: orange;
+}
+
+.three.columns.story:hover .overlay2 .text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  visibility: visible;
+  left: 0;
+  top: 18%;
+  font-size: 24px;
+  color: white;
+}
+
+img {
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px 1px black;
+  width: 100%;
+  /* height: 100%; */
+}
+
+.three.columns.story:hover .overlay1 {
+  width: 100%;
+  background: rgba(182,98,40, 0.9);
+  border-radius: 15px;
+  /* visibility: visible; */
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 25px;
+}
+
+.text {
+  visibility: hidden;
+}
+
+.author {
+  font-size: 18px;
+}
+
+.nine.columns.head {
+  margin: 38px 0 0 25px;
+}
+
+.three.columns.head {
+  margin: 25px 25px 0 0;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background: black;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+li {
+  display: inline-block;
+}
+
+.stories {
+  width: 50px;
+  height: 50px;
+  background: black;
+}
+
+.api {
+  width: 50px;
+  height: 50px;
+  background: black;
+}
+
+.credits {
+  width: 75px;
+  height: 75px;
+  background: black;
+}
+
+.rowUp2 {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.chart1 {
+  width: 100%;
+  height: 300px;
+  background: orange;
+}
