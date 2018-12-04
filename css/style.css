@@ -141,6 +141,7 @@ li {
 /* Second Row */
 .row2 {
   max-width: 1360px;
+  margin: 0 auto;
 }
 
 .frame {
